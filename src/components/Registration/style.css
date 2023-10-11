@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    background-color:  rgb(42, 98, 112);
+    color:  white;
+    border: 1px solid rgb(42, 98, 112);
+    border-radius: 5px;
+    width: 300px;
+}
+
+input:focus {
+    background-color: rgb(yellow);
+}
+
+::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border: 1px solid rgb(42, 98, 112);
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(42, 98, 112);
+    margin-top: 25px;
+}
+
+h1 {
+    color: rgb(42, 98, 112);
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    }
+
+img{
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+    background: rgb(255,255,255);
+    background: linear-gradient(204deg, rgba(255,255,255,1) 0%, rgba(186,186,186,1) 86%);
+    position: relative;
+    top: -70px;  
+    margin-bottom: -30px;
+}
+
+.alert{
+    color: red;
+    font-size: 11px;
+}
+
